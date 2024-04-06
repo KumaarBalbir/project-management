@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 import Clients from "./components/Clients";
+import Projects from "./components/Projects";
 import AddClientModal from "./components/AddClientModal";
 
 /* This code snippet is creating an instance of `InMemoryCache` from the Apollo Client library. The
@@ -38,6 +39,7 @@ function App() {
         <Header />
         <div className="container">
           <AddClientModal />
+          <Projects />
           <Clients />
         </div>
       </ApolloProvider>

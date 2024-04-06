@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
 import Clients from "./components/Clients";
+import AddClientModal from "./components/AddClientModal";
 
 /* This code snippet is creating an instance of `InMemoryCache` from the Apollo Client library. The
 `InMemoryCache` is used to store and manage the client-side cache for GraphQL data in your
@@ -36,6 +37,7 @@ function App() {
       <ApolloProvider client={client}>
         <Header />
         <div className="container">
+          <AddClientModal />
           <Clients />
         </div>
       </ApolloProvider>

@@ -13,16 +13,16 @@ This is a project management system built with React, Bootstrap, Apollo Client, 
 ## Technologies Used
 
 - **Frontend**:
-  - React: A JavaScript library for building user interfaces.
-  - Apollo Client: A fully-featured caching GraphQL client.
-  - React Icons: A collection of popular icons for React projects.
-  - Bootstrap: A front-end framework for developing responsive and mobile-first websites.
+  - **React:** A JavaScript library for building user interfaces.
+  - **Apollo Client:** A fully-featured caching GraphQL client.
+  - **React Icons:** A collection of popular icons for React projects.
+  - **Bootstrap:** A front-end framework for developing responsive and mobile-first websites.
 
 - **Backend**:
-  - Express.js: A fast, unopinionated, minimalist web framework for Node.js.
-  - MongoDB: A NoSQL database for storing data (clients and projects).
-  - GraphQL: A query language for APIs and a runtime for executing those queries.
-  - Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine, used for building scalable network applications.
+  - **Express.js:** A fast, unopinionated, minimalist web framework for Node.js.
+  - **MongoDB:** A NoSQL database for storing data (clients and projects).
+  - **GraphQL:** A query language for APIs and a runtime for executing those queries.
+  - **Node.js:** A JavaScript runtime built on Chrome's V8 JavaScript engine, used for building scalable network applications.
 
 ## Installation
 

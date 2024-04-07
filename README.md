@@ -24,6 +24,22 @@ This is a project management system built with React, Bootstrap, Apollo Client, 
   - **GraphQL:** A query language for APIs and a runtime for executing those queries.
   - **Node.js:** A JavaScript runtime built on Chrome's V8 JavaScript engine, used for building scalable network applications.
 
+## Architecture
+
+![design](assets/architecture.png) 
+
+## Layout
+- Home page
+
+
+![home-layout](assets/home.png) 
+
+-Project page
+
+
+![project-layout](assets/project.png)
+
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/KumaarBalbir/project-management` 
@@ -32,6 +48,10 @@ This is a project management system built with React, Bootstrap, Apollo Client, 
 4. Create a .env file and include variable (`MONGO_URI` as connection string for your mongodb database and `NODE_ENV` as "development").
 5. Start the development server: `npm run dev` (see `package.json` for starting the server).
 6. Open a new terminal and change directory to client `cd client` and start client by `npm start`.
+
+## Deployment
+- Backend is hosted on Render.
+- Frontend is hosted on Vercel.
 
 ## Usage
 - Visit the homepage to manage clients and projects.

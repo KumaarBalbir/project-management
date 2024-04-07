@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
-     "dev": "nodemon server/index.js"
+    "dev": "nodemon server/index.js"
   },
   "keywords": [
     "graphql",
@@ -24,10 +24,11 @@
     "express": "^4.19.2",
     "express-graphql": "^0.12.0",
     "graphql": "^15.8.0",
-    "mongoose": "^8.3.0"
+    "mongoose": "^8.3.0",
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "dotenv": "^16.4.5",
+    
     "nodemon": "^3.1.0"
   }
 }
